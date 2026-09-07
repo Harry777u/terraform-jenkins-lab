@@ -14,7 +14,7 @@ provider "aws" {
 resource "aws_instance" "jenkins_ec2" {
   ami           = "ami-0b6c6ebed2801a5cb"
   instance_type = "t3.micro"
- subnet_id = subnet-01484ef760e2acb73
+ subnet_id = subnet-0470fb9616d02deb5
 
   tags = {
     Name = "Jenkins-Terraform-Instance"
